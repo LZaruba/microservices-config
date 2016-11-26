@@ -6,4 +6,9 @@ eureka:
     preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://${DISCOVERY_SERVICE_HOST}:${DISCOVERY_SERVICE_PORT}/eureka/   
+      defaultZone: http://${DISCOVERY_SERVICE_HOST}:${DISCOVERY_SERVICE_PORT}/eureka/
+spring:
+  cloud:
+    config:
+      failFast: true
+         
