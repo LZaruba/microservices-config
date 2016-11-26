@@ -1,7 +1,7 @@
 eureka:
       instance:
         hostname: ${host.instance.name:localhost}
-        nonSecurePort: ${host.instance.port:8761}
+        nonSecurePort: ${host.instance.port:8760}
         leaseRenewalIntervalInSeconds: 5 #default is 30, recommended to keep default
       client:
         serviceUrl:
