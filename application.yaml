@@ -6,3 +6,5 @@ eureka:
       client:
         serviceUrl:
           defaultZone: http://(eurekaServerHost):(nonSecurePort)/eureka/
+      server:
+          port: (nonSecurePort)
